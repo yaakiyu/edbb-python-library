@@ -1,7 +1,7 @@
 from setuptools import setup
 import edbb
 
-with open('README.md', 'r') as fp:
+with open('README.md', 'r', encoding="utf-8") as fp:
     readme = fp.read()
 
 setup(
