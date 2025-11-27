@@ -1,6 +1,8 @@
 from setuptools import setup
 import edbb
 
+with open('README.md', 'r') as fp:
+    readme = fp.read()
 
 setup(
     name="edbb",
@@ -8,6 +10,8 @@ setup(
     author="yaakiyu",
     author_email="yaakiyu.yaakiyu@gmail.com",
     description="EDBB Python Package",
+    long_description=readme,
+    long_description_content_type="text/markdown",
     packages=["edbb"],
     install_requires=["discord.py", "python-dotenv"],
     python_requires=">=3.0",
