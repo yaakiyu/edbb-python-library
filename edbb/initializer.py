@@ -6,7 +6,7 @@ import sys
 from .l10n import get_text
 
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 
 # Pythonのバージョンを確認
